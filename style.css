@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;  /** font link **/
+}
+
+nav{
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(5, 5, 52);
+}
+
+
+.left{
+    font-size: 1.2rem;
+}
+
+ ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(168, 157, 157);
+    font-size: 1rem;
+}
+
+/* main  */
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;   /** Ye hota hai top bottom margin **/
+}
+
+.firstsection > div{
+   width: 30%;
+}
+
+.leftsection{
+    /* background-color: red;  */
+    font-size: 2.3rem;
+}
+
+.rightsection{
+/**   background-color: red; **/     /** image insetrt krne ke baad comment out krenge **/
+}
+
+.rightsection img{
+    width: 80%;     /** img thoda chhota ho jayega **/
+    margin: 50px;  /** upr se thoda duri bna lega **/
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;   /** second wala chij center me ho jayega **/
+    height: 80vh;   /** se experence ke niche hight mil jayega tex type krne ke liye **/
+}
+
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    width: 80wh;
+    margin: 50px 84px;
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+
+.text-gray{
+    color: gray;  /** utiliticlass bolte hai esko **/
+}
+
+.box{   /** div banaye to line show kraga phi style de denge **/
+    background-color: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;  /** margin mtlb upr se niche ki or aayega  usek bad 0 mtlb left right se krna hota hai**/
+    display: flex;  /** jo vertical line ka jo 4 div bna hai wo line one by one ho jayega  **/
+}
+
+.vertical{
+    height: 93px;
+    width: 1px;  /** esase 1px patli ptti dikhega **/
+    background-color: white; 
+    margin: 0 120px;    /**vertical wala jo4 line set hota  /**( top bottom se 0 hai left right se 100px hai) **/
+}
+
+.vertical .img-top{
+    width: 35px;  /* to line ke andar pura chhota ho jayega */
+    position: relative;
+    top: -40px;
+    left: -27px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 60px;
+    width: 180px;
+    font-size: 18px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 59px;
+    color: gray;
+    width: 150px;
+    font-size: 12px;
+}
+
+.footer{
+    background-color: rgb(12, 12, 39);
+    height: 133px;
+}
+
+.footer{
+    display: flex;
+    padding: 20px 162px;
+    justify-content: space-evenly;
+}
+
+
+
+
+ .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+
+}  
+
+ .leftsection .btn{
+    padding: 12px;
+    background: rgb(3 3 141);
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.leftsection .button{
+   padding: 20px;
+} 
